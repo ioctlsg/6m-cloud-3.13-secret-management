@@ -1,7 +1,6 @@
 # 6m-cloud-3.13-secret-management
 
-
-The code you provided appears to be a configuration file for the Serverless Framework to deploy an AWS Lambda function with an HTTP API endpoint. Let's break down the code and its components:
+The Serverless Framework to deploy an AWS Lambda function with an HTTP API endpoint. 
 
 1. `service: SimonOng-node-http-api-project`: This sets the name of your Serverless service, which will be used when deploying and managing the AWS resources associated with this service.
 
@@ -24,4 +23,4 @@ The code you provided appears to be a configuration file for the Serverless Fram
 
 5. `plugins`: Lists the plugins used by this Serverless service. In this case, it includes the `serverless-offline` plugin, which is often used for local development and testing of AWS Lambda functions and APIs without deploying to AWS.
 
-Overall, this Serverless Framework configuration file sets up an AWS Lambda function named `api`, associates it with an HTTP API endpoint at the root path, and provides it with an environment variable `ACCESS_KEY` sourced from an SSM parameter. The function is configured to run in the `nodejs18.x` runtime in the `ap-southeast-1` region of AWS. The `serverless-offline` plugin is also included to facilitate local development and testing.
+The Lambda function named `api`, associates it with an HTTP API endpoint at the root path, and provides it with an environment variable `ACCESS_KEY` sourced from an SSM parameter. The function is configured to run in the `nodejs18.x` runtime in the `ap-southeast-1` region of AWS. The `serverless-offline` plugin is also included to facilitate local development and testing.
